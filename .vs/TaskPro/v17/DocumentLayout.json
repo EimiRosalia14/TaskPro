@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eimir\\source\\repos\\TaskPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48A8E9DD-4699-42D4-8863-E5BD07D14E7E}|TaskPro.API\\TaskPro.API.csproj|c:\\users\\eimir\\source\\repos\\taskpro\\taskpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48A8E9DD-4699-42D4-8863-E5BD07D14E7E}|TaskPro.API\\TaskPro.API.csproj|solutionrelative:taskpro.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eimir\\source\\repos\\TaskPro\\TaskPro.API\\Program.cs",
+              "RelativeDocumentMoniker": "TaskPro.API\\Program.cs",
+              "ToolTip": "C:\\Users\\eimir\\source\\repos\\TaskPro\\TaskPro.API\\Program.cs",
+              "RelativeToolTip": "TaskPro.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T21:45:52.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
