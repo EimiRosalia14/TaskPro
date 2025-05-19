@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lAJnyAeOlxdGsvPNmVB8f+by0a9fcUgzY+xHUOl+M2g=",
+  "Source": "TaskPro.API",
+  "BasePath": "_content/TaskPro.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

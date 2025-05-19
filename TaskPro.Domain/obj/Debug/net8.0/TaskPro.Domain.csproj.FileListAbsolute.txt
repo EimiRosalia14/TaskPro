@@ -1,0 +1,12 @@
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\bin\Debug\net8.0\TaskPro.Domain.deps.json
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\bin\Debug\net8.0\TaskPro.Domain.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\bin\Debug\net8.0\TaskPro.Domain.pdb
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.AssemblyInfoInputs.cache
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.AssemblyInfo.cs
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.csproj.CoreCompileInputs.cache
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.sourcelink.json
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\refint\TaskPro.Domain.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\TaskPro.Domain.pdb
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Domain\obj\Debug\net8.0\ref\TaskPro.Domain.dll

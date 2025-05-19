@@ -1,0 +1,16 @@
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\bin\Debug\net8.0\TaskPro.Application.deps.json
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\bin\Debug\net8.0\TaskPro.Application.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\bin\Debug\net8.0\TaskPro.Application.pdb
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\bin\Debug\net8.0\TaskPro.Domain.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\bin\Debug\net8.0\TaskPro.Domain.pdb
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.csproj.AssemblyReference.cache
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.AssemblyInfoInputs.cache
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.AssemblyInfo.cs
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.csproj.CoreCompileInputs.cache
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.sourcelink.json
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro..FD74ED6A.Up2Date
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\refint\TaskPro.Application.dll
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\TaskPro.Application.pdb
+C:\Users\eimir\source\repos\TaskPro\TaskPro.Application\obj\Debug\net8.0\ref\TaskPro.Application.dll
