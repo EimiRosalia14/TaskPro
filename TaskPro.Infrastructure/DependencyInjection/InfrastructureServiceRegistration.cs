@@ -24,6 +24,9 @@ namespace TaskPro.Infrastructure.DependencyInjection
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IUsuarioService, AuthService>();
 
+            services.AddScoped<ITareaRepository, TareaRepository>();
+            services.AddScoped<ITareaService, TareaService>();
+
             return services;
         }
     }

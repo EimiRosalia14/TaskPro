@@ -51,7 +51,7 @@ namespace TaskPro.Infrastructure.Services
             };
 
             await _usuarioRepository.AddAsync(usuario);
-            await _context.SaveChangesAsync(); // Unit of Work simple
+            await _context.SaveChangesAsync(); 
 
             var usuarioDto = _mapper.Map<UsuarioResponseDto>(usuario);
             usuarioDto.Token = GenerarToken(usuario);
