@@ -1,5 +1,90 @@
 [
   {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "Crear",
+    "RelativePath": "api/Tarea",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "TaskPro.Application.DTOs.Tarea.CrearTareaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/Tarea/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Tarea/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "TaskPro.Application.DTOs.Tarea.ActualizarTareaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Tarea/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "ListarPorUsuario",
+    "RelativePath": "api/Tarea/usuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskPro.API.Controllers.UsuariosController",
     "Method": "Login",
     "RelativePath": "api/Usuarios/login",
