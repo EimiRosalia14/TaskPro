@@ -8,9 +8,9 @@ namespace TaskPro.Domain.Enums
 {
     public enum EstadoTarea
     {
-        Pendiente,
-        EnProgreso,
-        Completada,
-        Cancelada
+        Pendiente = 0,
+        EnProgreso = 1,
+        Completada = 2,
+        Cancelada = 3
     }
 }

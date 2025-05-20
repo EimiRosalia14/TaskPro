@@ -16,19 +16,23 @@ namespace TaskPro.Application.DTOs.Tarea
 
         public string Descripcion { get; set; } = string.Empty;
 
-        [JsonIgnore] // Oculta la versión completa con hora
+        [JsonIgnore]
         public DateTime FechaCreacion { get; set; }
 
         [JsonIgnore]
         public DateTime FechaVencimiento { get; set; }
 
-        // Versión formateada solo con la fecha (visible en JSON y Swagger)
         public string FechaCreacionStr => FechaCreacion.ToString("yyyy-MM-dd");
+
         public string FechaVencimientoStr => FechaVencimiento.ToString("yyyy-MM-dd");
 
         public EstadoTarea Estado { get; set; }
 
+        public string EstadoStr => Estado.ToString(); // <--- Nombre legible (ej: "Pendiente")
+
         public PrioridadTarea Prioridad { get; set; }
+
+        public string PrioridadStr => Prioridad.ToString(); // <--- Nombre legible (ej: "Alta")
 
         public string Categoria { get; set; } = string.Empty;
     }

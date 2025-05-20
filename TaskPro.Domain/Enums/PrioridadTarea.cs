@@ -8,8 +8,8 @@ namespace TaskPro.Domain.Enums
 {
     public enum PrioridadTarea
     {
-        Baja,
-        Media,
-        Alta
+        Baja = 0,
+        Media = 1,
+        Alta = 2
     }
 }
