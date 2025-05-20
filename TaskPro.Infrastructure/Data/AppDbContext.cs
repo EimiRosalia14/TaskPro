@@ -29,12 +29,20 @@ namespace TaskPro.Infrastructure.Data
             modelBuilder.Entity<Tarea>(entity =>
             {
                 entity.HasKey(x => x.Id);
-                entity.Property(x => x.Titulo).IsRequired().HasMaxLength(200);
+
+                entity.Property(x => x.Titulo)
+                      .IsRequired()
+                      .HasMaxLength(200);
+
+                entity.Property(x => x.FechaCreacion)
+                      .HasDefaultValueSql("GETUTCDATE()"); 
+
                 entity.HasOne(x => x.Usuario)
                       .WithMany(u => u.Tareas)
                       .HasForeignKey(x => x.UsuarioId)
                       .OnDelete(DeleteBehavior.Cascade);
             });
+
         }
     }
 }
