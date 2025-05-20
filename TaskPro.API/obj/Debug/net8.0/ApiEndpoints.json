@@ -70,6 +70,83 @@
   },
   {
     "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "BuscarTareasConFiltros",
+    "RelativePath": "api/Tarea/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Texto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Estado",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Prioridad",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Categoria",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaVencimientoAntes",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaVencimientoDespues",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrdenarPor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Ascendente",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "TareasProximasAVencer",
+    "RelativePath": "api/Tarea/proximas-a-vencer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "dias",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
     "Method": "ListarPorUsuario",
     "RelativePath": "api/Tarea/usuario/{usuarioId}",
     "HttpMethod": "GET",
@@ -80,6 +157,22 @@
         "Name": "usuarioId",
         "Type": "System.Guid",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskPro.API.Controllers.TareaController",
+    "Method": "TareasVencidas",
+    "RelativePath": "api/Tarea/vencidas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -143,6 +143,139 @@
         }
       }
     },
+    "/api/Tarea/buscar": {
+      "get": {
+        "tags": [
+          "Tarea"
+        ],
+        "parameters": [
+          {
+            "name": "Texto",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Estado",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/EstadoTarea"
+            }
+          },
+          {
+            "name": "Prioridad",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/PrioridadTarea"
+            }
+          },
+          {
+            "name": "Categoria",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "FechaVencimientoAntes",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "FechaVencimientoDespues",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date-time"
+            }
+          },
+          {
+            "name": "OrdenarPor",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Ascendente",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "usuarioId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tarea/proximas-a-vencer": {
+      "get": {
+        "tags": [
+          "Tarea"
+        ],
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "dias",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 3
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Tarea/vencidas": {
+      "get": {
+        "tags": [
+          "Tarea"
+        ],
+        "parameters": [
+          {
+            "name": "usuarioId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Usuarios/registrar": {
       "post": {
         "tags": [

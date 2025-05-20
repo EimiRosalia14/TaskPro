@@ -65,5 +65,41 @@ namespace TaskPro.API.Controllers
 
             return NoContent();
         }
+
+        // GET: api/Tarea/buscar
+        [HttpGet("buscar")]
+        public async Task<IActionResult> BuscarTareasConFiltros([FromQuery] FiltroTareaDto filtro, [FromQuery] Guid usuarioId)
+        {
+            var tareas = await _tareaService.BuscarTareasAsync(filtro, usuarioId);
+            return Ok(tareas);
+        }
+
+        // GET: api/Tarea/proximas-a-vencer?usuarioId=guid&dias=3
+        [HttpGet("proximas-a-vencer")]
+        public async Task<IActionResult> TareasProximasAVencer([FromQuery] Guid usuarioId, [FromQuery] int dias = 3)
+        {
+            var filtro = new FiltroTareaDto
+            {
+                FechaVencimientoAntes = DateTime.UtcNow.AddDays(dias),
+                FechaVencimientoDespues = DateTime.UtcNow
+            };
+
+            var tareas = await _tareaService.BuscarTareasAsync(filtro, usuarioId);
+            return Ok(tareas);
+        }
+
+        // GET: api/Tarea/vencidas?usuarioId=guid
+        [HttpGet("vencidas")]
+        public async Task<IActionResult> TareasVencidas([FromQuery] Guid usuarioId)
+        {
+            var filtro = new FiltroTareaDto
+            {
+                FechaVencimientoAntes = DateTime.UtcNow
+            };
+
+            var tareas = await _tareaService.BuscarTareasAsync(filtro, usuarioId);
+            return Ok(tareas);
+        }
+
     }
 }

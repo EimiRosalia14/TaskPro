@@ -61,5 +61,22 @@ namespace TaskPro.Infrastructure.Services
             await _tareaRepository.EliminarAsync(tarea);
             return true;
         }
+
+        public async Task<List<TareaDto>> BuscarTareasAsync(FiltroTareaDto filtro, Guid usuarioId)
+        {
+            var tareas = await _tareaRepository.BuscarConFiltrosAsync(
+                usuarioId: usuarioId,
+                texto: filtro.Texto,
+                estado: filtro.Estado,
+                prioridad: filtro.Prioridad,
+                categoria: filtro.Categoria,
+                fechaVencimientoAntes: filtro.FechaVencimientoAntes,
+                fechaVencimientoDespues: filtro.FechaVencimientoDespues,
+                ordenarPor: filtro.OrdenarPor,
+                ascendente: filtro.Ascendente
+            );
+
+            return _mapper.Map<List<TareaDto>>(tareas);
+        }
     }
 }

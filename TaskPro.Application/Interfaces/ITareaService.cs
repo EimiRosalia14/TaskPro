@@ -14,5 +14,7 @@ namespace TaskPro.Application.Interfaces
         Task<List<TareaDto>> ListarTareasPorUsuarioAsync(Guid usuarioId);
         Task<bool> ActualizarTareaAsync(int id, ActualizarTareaDto dto);
         Task<bool> EliminarTareaAsync(int id);
+        Task<List<TareaDto>> BuscarTareasAsync(FiltroTareaDto filtro, Guid usuarioId);
+
     }
 }
